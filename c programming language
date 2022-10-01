@@ -1,32 +1,33 @@
+// Online C compiler to run C program online
 #include <stdio.h>
-#include <windows.h>
-int main()
-{
-    float discount, discounted price, original price, tax, vat, total;
-    system("color 17")
+int main() {
+    float discount, discountedprice, originalprice, vat, tax, total;
     printf("\n\nRainy Day Sale");
-    printf("Enter the original price: ");
+    printf("\n\nEnter the original price: ");
     scanf("%f", &originalprice);
     {
-    }
+    }    
         discount = .50;
         printf("\n\nDiscount: 50 percent");
     {
-    }
-        discounted price = original price * discount;
-        printf("\n\nDisccounted Price: %.2f", discountedprice);
+    }    
+        discountedprice = originalprice * discount;
+        printf("\nDiscountedPrice: %.2f", discountedprice);
     {
-    }
-        vat = original price * 0.12;
-        printf("\n\nVAT Amount: %.2f", vat);
+    }    
+        vat = originalprice * 0.12;
+        printf("\nVAT Amount: %.2f", vat);
     {
-    }
-        tax = original price - vat;
-        printf("\n\nTaxable Amount: %.2f", tax);
+    }    
+        tax = originalprice - vat;
+        printf("\nTaxableAmount: %.2f", tax);
     {
-    }
-        total = original price * discount;
-        printf("\n\nTotal Payable Amount: %.2f", total);
+    }    
+        total = originalprice * discount;
+        printf("\nTotal Payable Amouunt: %.2f", total);
         {
+        }    
         return 0;
-}        
+
+            
+        }      
