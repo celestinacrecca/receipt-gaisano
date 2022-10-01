@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <windows.h>
+int main()
+{
+    float discount, discounted price, original price, tax, vat, total;
+    system("color 17")
+    printf("\n\nRainy Day Sale");
+    printf("Enter the original price: ");
+    scanf("%f", &originalprice);
+    {
+    }
+        discount = .50;
+        printf("\n\nDiscount: 50 percent");
+    {
+    }
+        discounted price = original price * discount;
+        printf("\n\nDisccounted Price: %.2f", discountedprice);
+    {
+    }
+        vat = original price * 0.12;
+        printf("\n\nVAT Amount: %.2f", vat);
+    {
+    }
+        tax = original price - vat;
+        printf("\n\nTaxable Amount: %.2f", tax);
+    {
+    }
+        total = original price * discount;
+        printf("\n\nTotal Payable Amount: %.2f", total);
+        {
+        return 0;
+}        
